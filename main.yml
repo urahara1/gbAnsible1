@@ -1,0 +1,12 @@
+---
+- name: Add the user 'testuser'
+  user:
+    name: testuser
+    shell: /bin/bash
+    create_home: true
+    password: $1$SomeSalt$UqddPX3r4kH3UL5jq5/ZI.
+    comment: This is Ansible Test User
+    generate_ssh_key: yes
+    ssh_key_bits: 2048
+    ssh_key_file: .ssh/id_rsa
+
