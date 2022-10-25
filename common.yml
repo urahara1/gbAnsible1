@@ -1,0 +1,9 @@
+---
+- hosts: all
+  pre_tasks:
+    - ping:
+  roles:
+    - test
+    - nginx
+  post_tasks:
+    - debug:

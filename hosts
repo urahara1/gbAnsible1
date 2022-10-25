@@ -1,0 +1,12 @@
+[servers]
+localhost
+
+[ssh_srv]
+192.168.100.4
+192.168.100.16
+
+
+
+[all:vars]
+ansible_ssh_user=ansible
+ansible_ssh_private_key_file=/home/ansible/.ssh/id_rsa
