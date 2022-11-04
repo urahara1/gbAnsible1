@@ -1,0 +1,21 @@
+---
+- src: https://github.com/geerlingguy/ansible-role-nginx.git
+  scm: git
+  version: master
+  name: geerlingguy.nginx
+
+- src: https://github.com/geerlingguy/ansible-role-mysql.git
+  scm: git
+  version: master
+  name: geerlingguy.mysql
+
+
+- src: https://github.com/geerlingguy/ansible-role-php.git
+  scm: git
+  version: master
+  name: geerlingguy.php
+
+- src: https://github.com/MakarenaLabs/ansible-role-wordpress.git
+  scm: git
+  version: master
+  name: wordpress

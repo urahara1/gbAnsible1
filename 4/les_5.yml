@@ -1,0 +1,5 @@
+---
+- hosts: ssh_srv
+  roles:
+    - create_user
+    - create_files

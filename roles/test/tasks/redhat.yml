@@ -1,0 +1,5 @@
+---
+- name: Install VI Improve
+  yum:
+    name: "vim"
+    state: present
