@@ -1,0 +1,4 @@
+---
+  - file:
+      path: /tmp/112312312.txt
+      state: touch

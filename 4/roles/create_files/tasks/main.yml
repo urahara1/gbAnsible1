@@ -1,0 +1,7 @@
+---
+- name: Create DIRECTORY
+  include_tasks: directory.yml
+
+- name: Create FILE
+  include_tasks: file.yml
+  when: ansible_facts['distribution'] == "CentOS"

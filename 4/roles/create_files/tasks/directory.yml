@@ -1,0 +1,5 @@
+---
+- file:
+    path: /tmp/123123123222
+    state: directory
+  when: dir | default(true) | bool

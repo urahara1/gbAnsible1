@@ -1,0 +1,18 @@
+---
+users:
+  - login: "user1"
+    pass: "userpwd1"
+    create_home: yes
+    move_home: yes
+    home: /home/user1
+    generate_ssh_key: yes
+    ssh_key_bits: 2048
+    ssh_key_file: .ssh/id_rsa
+  - login: "user2"
+    pass: "userpwd2"
+    create_home: yes
+    move_home: yes
+    home: /home/user2
+    generate_ssh_key: yes
+    ssh_key_bits: 2048
+    ssh_key_file: .ssh/id_rsa
